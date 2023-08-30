@@ -2,8 +2,8 @@ from typing import Final
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, filters, ContextTypes, Updater, Application
 
-TOKEN: Final = "6498118345:AAHo6Ow6lu42vTayZuonSUwFLirmpZQKkXU"
-BOT_USERNAME: Final = "@scroll_message_bot"
+TOKEN: Final = "token"
+BOT_USERNAME: Final = "username"
 
 
 # Commands
@@ -70,6 +70,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""TOKEN: Final = "6498118345:AAHo6Ow6lu42vTayZuonSUwFLirmpZQKkXU"
-BOT_USERNAME: Final = "@scroll_message_bot"""
